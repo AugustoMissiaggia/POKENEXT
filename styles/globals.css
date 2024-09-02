@@ -12,8 +12,11 @@
 
 /* Media Queries para Responsividade Mobile */
 @media (max-width: 768px) {
-  .main-container {
-    padding: 10px; /* Ajuste de padding para telas menores */
+  .pokemon_container {
+    display: flex;
+    flex-direction: column; /* Organiza os cards em coluna */
+    gap: 10px; /* Espaçamento entre os cards */
+    align-items: center; /* Centraliza os cards horizontalmente */
   }
 
   .title {
