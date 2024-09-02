@@ -1,0 +1,39 @@
+/* components/SearchBar.module.css */
+.searchBarContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: red; /* Botão vermelho */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: darkred; /* Cor do botão ao passar o mouse */
+  }
+  

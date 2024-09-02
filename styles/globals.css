@@ -1,5 +1,6 @@
+/* Estilos Globais */
 * {
-  font-family:  Helvetica;
+  font-family: Helvetica;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,4 +8,45 @@
 
 .main-container {
   min-height: 70vh;
+}
+
+/* Media Queries para Responsividade Mobile */
+@media (max-width: 768px) {
+  .main-container {
+    padding: 10px; /* Ajuste de padding para telas menores */
+  }
+
+  .title {
+    font-size: 24px; /* Ajusta o tamanho do título */
+    text-align: center;
+  }
+
+  .searchBarContainer {
+    padding: 15px; /* Adapta o padding da barra de pesquisa */
+  }
+
+  .searchBar {
+    flex-direction: column; /* Alinha a barra de pesquisa em coluna no mobile */
+    align-items: stretch;
+  }
+
+  .input {
+    width: 100%; /* Aumenta a largura do input para ocupar todo o espaço disponível */
+    margin-bottom: 10px;
+  }
+
+  .button {
+    width: 100%; /* Deixa o botão com largura total no mobile */
+  }
+
+  .pokemon_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajuste responsivo dos cards */
+    gap: 10px; /* Espaçamento entre os cards */
+  }
+
+  .card {
+    padding: 10px; /* Reduz o padding dos cards */
+    text-align: center; /* Centraliza o conteúdo dos cards */
+  }
 }
