@@ -46,3 +46,22 @@
     background-color: #E33D33;
     color: #fff;
 }
+
+
+@media (max-width: 768px) {
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2em 1em;
+        margin-bottom: 2em;
+        width: 50%;
+        border-radius: 1em;
+        border: 2px solid #E33D33;
+        box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+        background-color: #333;
+        color: #fff;
+    }
+   
+    }
